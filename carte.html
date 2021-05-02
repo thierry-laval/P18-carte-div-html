@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--Insertion d'une carte dans un div basé sur https://www.openstreetmap.fr-->
+<!--Source du projet https://leafletjs.com/-->
+
+<html lang="fr-FR">
+
+<head>
+  <title>Feuille html de test</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+  <meta name="description" content="Insertion d'une carte">
+  <meta name="theme-color" content="#000000">
+  <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+	<meta property="og:locale" content="fr_FR" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Accueil - A REMPLIR" />
+	<meta property="og:description" content="Bla Bla Insertion d'une carte Bla Bla A REMPLIR" />
+	<meta property="og:url" content="https://www.A REMPLIR.fr//" />
+	<meta property="og:site_name" content="Insertion d'une carte" />
+	<meta property="article:publisher" content="https://www.facebook.com/A REMPLIR" />
+	<meta property="article:modified_time" content="2021-02-08T12:30:03+00:00" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="@thierry_laval" />
+	<meta name="twitter:label1" content="Durée de lecture est.">
+	<meta name="twitter:data1" content="1 minute">
+	<meta name="google-site-verification" content="A REMPLIR" />
+	<meta name="yandex-verification" content="A REMPLIR" />
+
+  <link rel="canonical" href="http://www.A REMPLIR.fr/" />
+  <link rel="profile" href="https://thierrylaval.dev" />
+  <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+  <link rel="icon" href="./images/favicon.png" sizes="32x32" />
+  <link rel="icon" href="./images/favicon.png" sizes="192x192" />
+  <link rel="apple-touch-icon" href="./images/favicon.png" />
+
+  <!--Lien vers le style.css en ligne-->
+  <!--<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/>-->
+  <link rel="stylesheet" href="./css/leaflet.css" />
+
+  <!--Lien vers le script.js en ligne-->
+  <!--<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>-->
+  <script src="./js/leaflet.js"></script>
+
+</head>
+
+<body>
+
+  <!-- la div à insérer et à modifier -->
+  <!--<div id="mapid" style="width: 600px; height: 400px;"></div>-->
+  <div id="mapid" style="width: 100%; height: 800px;"></div>
+
+  <!-- le script vers la carte -->
+  <script>
+    //Modifier les coordonnées via le site - https://www.openstreetmap.org
+    var map = L.map('mapid').setView([45.8003, -0.9050], 11);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+      //Mentionner OpenStreet Map, même si la carte est gratuite
+    }).addTo(map);
+    //Création d'un icone de positionnement avec une PopUp
+    L.marker([45.76790, -0.97837]).addTo(map)
+      .bindPopup('Une jolie icone de positionnement.<br> Facilement customisable.')
+      .openPopup();
+  </script>
+
+</body>
+
+</html>
