@@ -31,7 +31,7 @@ La méthode L.map(...) permet de lier l'id de l'élément créé, puis de charge
 
 ### Utilisé dans ce projet
 
-| Languages       |    Applications    |     et site web      |
+| Langages       |    Applications    |     et site web      |
 | :-------------: |:--------------:    |  :--------------:    |
 | HTML5           | Visual Studio Code | [Plunker](https://plnkr.co/edit/?p=preview&preview) |
 | CSS3            | Git/GitHub         | [Leaflet](https://leafletjs.com/) |
