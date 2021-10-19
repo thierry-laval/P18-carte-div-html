@@ -1,18 +1,22 @@
 # ![left 100%](https://raw.githubusercontent.com/thierry-laval/archives/master/images/logo-portfolio.png)
 
-### Auteur
+## Auteur
 
-👤**Thierry LAVAL** [🇫🇷 Contactez moi 🇬🇧](<contact@thierrylaval.dev>)
+👤 &nbsp; **Thierry LAVAL** [🇫🇷 Contactez moi 🇬🇧](<contact@thierrylaval.dev>)
 
 * Github: [@Thierry Laval](https://github.com/thierry-laval)
 * LinkedIn: [@Thierry Laval](https://www.linkedin.com/in/thierry-laval)
+* Visitez ==> 🏠 [Site Web](https://thierrylaval.dev)
 
 ***
 
-## 📎 Projet 18 - Création d'une carte dans une div
+### 📎 Projet 18 - Création d'une carte dans une div
 
 ![left 100%](carte.jpg?raw=true)
+
 _`Début du projet le 20/01/2021`_
+
+***
 
 Le projet 18 consiste à afficher une carte dans une div sur une page html en utilisant Leaflet et basée sur les données gratuites d'OpenStreetmap.
 
@@ -29,7 +33,7 @@ La méthode L.map(...) permet de lier l'id de l'élément créé, puis de charge
 
 ***
 
-### Utilisé dans ce projet
+#### 📦  &nbsp; Utilisé dans ce projet
 
 | Langages       |    Applications    |     et site web      |
 | :-------------: |:--------------:    |  :--------------:    |
@@ -41,4 +45,26 @@ La méthode L.map(...) permet de lier l'id de l'élément créé, puis de charge
 
 ***
 
-&hearts;&nbsp;&nbsp;&nbsp;&nbsp;Love Markdown
+#### 📝 &nbsp; License
+
+Copyright © 2021 [Thierry Laval](https://thierrylaval.dev)
+
+Ce projet est sous licence [MIT](LICENCE).
+
+[Voir mon travail](https://github.com/thierry-laval)
+
+[Créer un bon template](https://github.com/thierry-laval/P22-template-pour-un-readme)
+
+***
+
+### &hearts;&nbsp;&nbsp;&nbsp;&nbsp;Love Markdown
+
+Donnez une ⭐️ &nbsp; si ce projet vous a plu !
+
+<span style="font-family:Papyrus; font-size:4em;">FAN DE GITHUB !</span>
+
+<!--[This is an image](https://myoctocat.com/assets/images/base-octocat.svg)-->
+
+<a href="url"><img src="https://myoctocat.com/assets/images/base-octocat.svg" height="300"></a>
+
+**[⬆ Retour en haut](#auteur)** <br>
